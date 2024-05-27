@@ -11,7 +11,7 @@ wezterm.on("gui-startup", function()
 end)
 
 --config.color_scheme = "Catppuccin Mocha"
-config.color_scheme = "Rosé Pine (base16)"
+config.color_scheme = "Darcula (base16)"
 config.font = wezterm.font("JetBrains Mono")
 config.font_size = 12
 config.line_height = 1.2

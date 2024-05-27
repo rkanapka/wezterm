@@ -10,17 +10,13 @@ wezterm.on("gui-startup", function()
 	window:gui_window():maximize()
 end)
 
-config.color_scheme = "Hardcore"
+--config.color_scheme = "Catppuccin Mocha"
+config.color_scheme = "Rosé Pine (base16)"
 config.font = wezterm.font("JetBrains Mono")
-config.font_size = 14
+config.font_size = 12
 config.line_height = 1.2
 
 config.window_decorations = "RESIZE"
-
-config.inactive_pane_hsb = {
-	saturation = 0.8,
-	brightness = 0.7,
-}
 
 config.adjust_window_size_when_changing_font_size = false
 config.hide_tab_bar_if_only_one_tab = true
